@@ -1,0 +1,26 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrtalWikoff/ReadmeGenerator.git"
+  },
+  "keywords": [
+    "README",
+    "Generator"
+  ],
+  "author": "Ortal Wikoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrtalWikoff/ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/OrtalWikoff/ReadmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  }
+}
