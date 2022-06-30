@@ -1,29 +1,28 @@
 //generate the markdown:
-function generateMarkdown(data) {
+function markdown(data) {
     return `
-# Project Title
+# Project Title: 
 ${data.title}
 ${data.getLicense}
-# Description
+# Description:
 ${data.description}
-# Table of Contents 
+# Table of Contents: 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [License](#-Installation)
 * [Contributing](#-Contributing)
 * [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Contact Information](#-Contact-Information)
     
-# Installation
+# Installation:
 ${data.installation}
-# Usage
+# Usage: 
 ${data.usage}
-# License 
+# License: 
 ${data.license}
-* As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 # Contributing 
 ${data.contributing}
-# Tests
+# Tests:
 ${data.tests}
 # Contact Information 
 * GitHub Username: ${data.userName}
@@ -31,5 +30,5 @@ ${data.tests}
 `;
 }
 
-//need to export the generateMarkdown function 
-module.exports = generateMarkdown;
+//export the markdown function 
+module.exports = markdown;

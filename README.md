@@ -1,28 +1,27 @@
 
-# Project Title
-aaa
+# Project Title: 
+Professional README Generator
 undefined
-# Description
-aaa
-# Table of Contents 
+# Description:
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+# Table of Contents: 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [License](#-Installation)
 * [Contributing](#-Contributing)
 * [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Contact Information](#-Contact-Information)
     
-# Installation
-aaa
-# Usage
-aaa
-# License 
-GNU
-* As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
+# Installation:
+NA
+# Usage: 
+You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+# License: 
+MIT
 # Contributing 
-aaa
-# Tests
-aaa
+They can add questions to the README file.
+# Tests:
+NA
 # Contact Information 
-* GitHub Username: aaa
-* Contact Email: aaa
+* GitHub Username: OrtalWikoff
+* Contact Email: owikoff@gmail.com
