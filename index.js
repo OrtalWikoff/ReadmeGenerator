@@ -14,7 +14,7 @@ function validateInput(value) {
         return "Please answer the question.";
     }
 }
-    // Question for the Title
+    // Questions
 
 const questions = [
     {
