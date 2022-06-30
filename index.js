@@ -94,7 +94,7 @@ function write(fileName, data) {
 function initQuestions() {
     inquirer.prompt(questions).then((data) => {
         console.log(JSON.stringify(data, null, " "));
-        write("./README.md", data);
+        write("./example/README.md", data);
     });
 }
 
