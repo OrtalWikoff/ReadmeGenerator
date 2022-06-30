@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/OrtalWikoff/ReadmeGenerator#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "^6.0.0"
   }
 }

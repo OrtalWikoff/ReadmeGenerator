@@ -1,9 +1,11 @@
-
+//generate the markdown:
+function generateMarkdown(data) {
+    return `
 # Project Title
-aaa
-undefined
+${data.title}
+${data.getLicense}
 # Description
-aaa
+${data.description}
 # Table of Contents 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
@@ -13,16 +15,21 @@ aaa
 * [Questions](#-Contact-Information)
     
 # Installation
-aaa
+${data.installation}
 # Usage
-aaa
+${data.usage}
 # License 
-GNU
+${data.license}
 * As this license list was not comprehensive, if you need another license, use the contact information below to ask for license to be added. 
 # Contributing 
-aaa
+${data.contributing}
 # Tests
-aaa
+${data.tests}
 # Contact Information 
-* GitHub Username: aaa
-* Contact Email: aaa
+* GitHub Username: ${data.userName}
+* Contact Email: ${data.userEmail}
+`;
+}
+
+//need to export the generateMarkdown function 
+module.exports = generateMarkdown;
