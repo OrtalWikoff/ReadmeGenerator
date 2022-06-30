@@ -5,7 +5,7 @@ const fs = require ("fs");
 
 const inquirer = require("inquirer");
 
-const markdown = require("./markdown");
+const markdown = require("./Develop/utils/generateMarkdown");
 
 function validateInput(value) {
     if (value != "") {

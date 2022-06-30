@@ -1,9 +1,9 @@
 
 # Project Title: 
-Readme Generator
+sample
 undefined
 # Description:
-High quality readme for an app
+sample
 # Table of Contents: 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
@@ -11,17 +11,17 @@ High quality readme for an app
 * [Contributing](#-Contributing)
 * [Tests](#-Tests)
 * [Contact Information](#-Contact-Information)
-    
+  
 # Installation:
-NA
+sample
 # Usage: 
-Allows the project creator to devote more time working on their project.
+sample
 # License: 
 MIT
 # Contributing 
-Fork the repo.
+sample
 # Tests:
-NA
+sampe
 # Contact Information 
-* GitHub Username: OrtalWikoff
-* Contact Email: owikoff@gmail.com
+* GitHub Username: sample
+* Contact Email: sample
