@@ -57,7 +57,7 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "How can users contribute to your project.",
+        message: "How can users contribute to your project?",
         validate: validateInput,
     },
     {
@@ -72,7 +72,6 @@ const questions = [
         message: "What is your GitHub username?",
         validate: validateInput,
     },
-
     {
         type: "input",
         name: "userEmail",
@@ -80,7 +79,6 @@ const questions = [
         validate: validateInput,
         },
 ];
-
 // function to generate the ReadMe here
 function write(fileName, data) {
     fs.writeFile(fileName, markdown(data), function (err) {
